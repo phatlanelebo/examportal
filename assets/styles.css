@@ -1,0 +1,104 @@
+
+body {
+	font-family: arial, 'helvetica';
+}
+.nav {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #abb3de;
+	color: #fff;
+	padding: 0 50px;
+}
+.brand {
+	font-weight: bold;
+	float: left;
+	margin-right: 50px;
+}
+.brand a:hover {
+	background-color: transparent !important;
+	color: #5d7599;
+}
+.nav li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 15px 0;
+}
+.nav li a {
+	padding: 15px 10px;
+	text-decoration: none;
+	color: #5d7599;
+}
+.nav li a:hover {
+	background-color: #5d7599;
+	color: #fff;
+}
+.page-header {
+	font-size: 2em;
+	color: #777;
+	text-align: center;
+	border-bottom: thin solid #ccc;
+	margin-top: 50px;
+	padding: 5px 0;
+
+}
+.table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-top: 15px;
+	border-bottom: thin solid #777;
+	border-color: #bbb;
+}
+.table tr td {
+	border: thin solid #bbb;
+	border-color: #ddd;
+	color: #444;
+	padding: 5px;
+}
+.btn {
+	/*width: 100%;*/
+	background-color: #B39DDB;
+	color: #fff;
+	border: thin solid #B39DDB;
+	padding: 6px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.btn:hover {
+	background-color: #D1C4E9;
+}
+.container-item {
+	width: 600px;
+	max-width: 100%;
+	margin: 0 auto;
+	background-color: #fff;
+	color: #777;
+	border: thin solid #ddd;
+	border-radius: 5px;
+	padding: 5px 10px;
+	/*box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);*/
+	/*margin-top: 100px;*/
+	box-sizing: border-box;
+
+}
+.controls {
+	width: 95%;
+	border: none;
+	border-bottom: thin solid #ddd;
+	outline: none;
+	/*border-radius: 5px;*/
+	padding: 15px 0;
+	margin: 10px 0;
+	text-indent: 10px;
+	color: #777;
+}
+.card-item {
+	width: 300px;
+	border: thin solid #bbb;
+	border-radius: 5px;
+	display: inline-block;
+	text-align: center;
+	padding: 10px;
+	margin-right: 8px;
+}
